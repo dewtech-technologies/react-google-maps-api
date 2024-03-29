@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Estilizando inputs e botões */
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+/* Layout responsivo para o mapa */
+#map-container {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+}
+
+/* Estilos para a exibição de distâncias */
+.distance-display {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.distance-display p {
+  margin: 5px 0;
+}

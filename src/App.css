@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.App-title {
+  margin: 0;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
